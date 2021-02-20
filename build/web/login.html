@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+        <title>login</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrapmy.css">
+    </head>
+
+
+    <body style="background-color: #660033;">
+        <div class="container register">
+            <div class="row">
+                <div class="col-md-3 register-left">
+                    <img src="css/logo_white.png" alt=""/>
+                    <h3>Welcome</h3>
+                    <p>Login Yourself To enjoy free account!</p>
+                    <h5 style="color: #ffcc99;">Don,t have an account?</h5>
+                    <button onclick="location.href = 'registration.jsp';" class="btn btn-primary btn-lg" name="btn_registration">Register</button>
+                </div>
+                <div class="col-md-9 register-right">
+                    <form action="./login" method="post" role="form">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading">Login</h3>
+
+                                <div class="row register-form">
+                                    <div class="col-md-9">
+                                        <div class="form-group">
+                                            <input type="text" name="email" id="email" class="form-control" placeholder="Enter Email *" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="pass" id="pass" class="form-control" placeholder="Enter Password *" />
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary btn-lg" name="btn_registration">Login</button>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
